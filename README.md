@@ -19,15 +19,15 @@ The name of the exported images will match the name of the artboard. If the artb
 Selected Directory
 ├───Android
 │   ├───drawable-mdpi
-│   │   └───app-icon.png
+│   │   └───app_icon.png
 │   ├───drawable-hdpi
-│   │   └───app-icon.png
+│   │   └───app_icon.png
 │   ├───drawable-xhdpi
-│   │   └───app-icon.png
+│   │   └───app_icon.png
 │   ├───drawable-xxhdpi
-│   │   └───app-icon.png
+│   │   └───app_icon.png
 │   ├───drawable-xxxhdpi
-│   │   └───app-icon.png
+│   │   └───app_icon.png
 └───iOS
     ├───app-icon.png
     ├───app-icon@2x.png
@@ -40,7 +40,8 @@ The baseline image used for Android is `xhdpi`, for iOS it is `@2x`. The script 
 License
 ---
 ```
-Copyright 2016 Austyn Mahoney
+Copyright 2016 Will Blaschko
+Based on work by Austyn Mahoney (https://github.com/austynmahoney/mobile-export-scripts-illustrator)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
